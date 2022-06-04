@@ -6,6 +6,12 @@ body {
     background: #ffffff;
     font-family: 'open sans', sans-serif;
 }
+#logo {
+    background-color: #719a0a;
+    opacity: 0,5;
+    position:fixed
+}
+
 
 #web-bg {
     position: fixed; 
@@ -131,7 +137,7 @@ a:focus {
 .navbar .navbar-brand {
     margin: 0;
     color: #fbaf32;
-    font-size: 45px;
+    font-size: 1.5em;
     line-height: 0px;
     font-weight: 700;
     font-family: 'Nunito', sans-serif;
@@ -162,6 +168,7 @@ a:focus {
     background: #f8f9fa;
 }
 
+
 @media (min-width: 992px) {
     .navbar {
         position: absolute;
@@ -188,7 +195,7 @@ a:focus {
     .navbar-light .navbar-nav .nav-link:focus {
         padding: 10px 10px 8px 10px;
         font-family: 'Nunito', sans-serif;
-        color: #ffffff;
+        color: #666666;
         font-size: 18px;
         font-weight: 600;
     }
@@ -239,8 +246,8 @@ a:focus {
 .carousel {
     position: relative;
     width: 100%;
-    height: 100vh;
-    min-height: 400px;
+    height: 10vh;
+    min-height: 320px;
     background: #ffffff;
 }
 
@@ -251,7 +258,7 @@ a:focus {
 .carousel .carousel-item {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -260,10 +267,11 @@ a:focus {
 
 .carousel .carousel-img {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 50vh;
     text-align: right;
     overflow: hidden;
+    margin-top: 100px;
 }
 
 .carousel .carousel-img::after {
@@ -315,6 +323,7 @@ a:focus {
 
 .carousel .carousel-btn .btn:last-child {
     margin-left: 10px;
+    margin-top: 55px;
     background: #719a0a;
     border-color: #719a0a;
 }
@@ -333,7 +342,7 @@ a:focus {
     .carousel,
     .carousel .carousel-item,
     .carousel .carousel-text {
-        height: calc(100vh - 105px);
+        height: calc(70vh - 105px);
     }
     
     .carousel .carousel-text h1 {
@@ -355,7 +364,7 @@ a:focus {
     .carousel,
     .carousel .carousel-item,
     .carousel .carousel-text {
-        height: calc(100vh - 70px);
+        height: calc(70vh - 70px);
     }
     
     .carousel .carousel-text h1 {
@@ -446,7 +455,7 @@ a:focus {
 /*******************************/
 .section-header {
     position: relative;
-    margin-bottom: 45px;
+    margin-bottom: 15px;
 }
 
 .section-header p {
@@ -570,8 +579,8 @@ a:focus {
 .food {
     position: relative;
     width: 100%;
-    padding: 90px 0 60px 0;
-    margin: 45px 0;
+    padding: 5px 0 5px 0;
+    margin: 5px 0;
     background: rgba(0, 0, 0, .04);
 }
 
@@ -660,7 +669,7 @@ a:focus {
 .about {
     position: relative;
     width: 100%;
-    padding: 45px 0;
+    padding: 5%;
 }
 
 .about .section-header {
@@ -675,8 +684,10 @@ a:focus {
 .about .about-img img {
     position: relative;
     width: 100%;
+    height: 100%;
     border-radius: 15px;
 }
+
 
 .about .btn-play {
     position: absolute;
@@ -803,6 +814,10 @@ a:focus {
         margin-bottom: 30px;
     }
 }
+.about-img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 
 /*******************************/
@@ -890,7 +905,7 @@ a:focus {
 /*******************************/
 .menu {
     position: relative;
-    padding: 45px 0 15px 0;
+    padding: 5%;
 }
 
 .menu .menu-tab {
@@ -918,7 +933,7 @@ a:focus {
 }
 
 .menu .menu-tab .tab-content {
-    padding: 30px 0 0 0;
+    padding: 5px 0 0 0;
     background: transparent;
     text-align: center;
 }
@@ -1862,8 +1877,7 @@ a:focus {
 /*******************************/
 .footer {
     position: relative;
-    margin-top: 45px;
-    padding-top: 90px;
+    padding-top: 5px;
     background: rgba(0, 0, 0, .04);
 }
 
@@ -1994,4 +2008,8 @@ a:focus {
 
 .footer .copyright p a:hover {
     color: #719a0a;
+}
+
+.herseysinifsal{
+    padding: 10px;
 }
